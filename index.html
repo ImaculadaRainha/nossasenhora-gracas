@@ -12,10 +12,28 @@
 
         </nav>
     </header>
+    <div id="alerta-tela">
+    ⚠️ Este site está disponível apenas para visualização em dispositivos móveis.
+  </div>
     <main>
         <div id="img">
 
         </div>
     </main>
+
+    <script>
+    function verificarTela() {
+      if (window.innerWidth > 768) {
+        document.getElementById('alerta-tela').style.display = 'flex';
+        document.getElementById('conteudo-site').style.display = 'none';
+      }
+    }
+
+    // Verifica ao carregar a página
+    verificarTela();
+
+    // Também verifica ao redimensionar a janela
+    window.addEventListener('resize', verificarTela);
+  </script>
 </body>
 </html>

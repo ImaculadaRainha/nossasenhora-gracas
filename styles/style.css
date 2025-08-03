@@ -15,3 +15,22 @@ div#img {
   height: 100vh;                  /* Altura da tela inteira */
   width: 100%;
 }
+
+#alerta-tela {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(0, 0, 0, 0.95);
+      color: #fff;
+      font-family: Arial, sans-serif;
+      font-size: 1.5rem;
+      text-align: center;
+      padding: 2rem;
+      box-sizing: border-box;
+      z-index: 9999;
+      justify-content: center;
+      align-items: center;
+    }
