@@ -8,20 +8,42 @@
 </head>
 <body>
     <header>
-        <nav>
+    <div class="logo">
+      <img src="img/IMACULADA.png" alt="Logo" />
+      <!-- Substitua 'sua-logo.png' pelo caminho da sua imagem -->
+    </div>
+    <div class="hamburger" id="hamburger">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+  </header>
 
-        </nav>
-    </header>
+  <nav class="menu" id="menu">
+    <a href="#">Início</a>
+    <a href="#">Sobre</a>
+    <a href="#">Serviços</a>
+    <a href="#">Contato</a>
+  </nav>
+
     <div id="alerta-tela">
     ⚠️ Este site está disponível apenas para visualização em dispositivos móveis.
   </div>
     <main>
-        <div id="img">
+        <div id="img11">
 
         </div>
     </main>
 
     <script>
+      const hamburger = document.getElementById("hamburger");
+    const menu = document.getElementById("menu");
+
+    hamburger.addEventListener("click", () => {
+      hamburger.classList.toggle("active");
+      menu.classList.toggle("active");
+    });
+
     function verificarTela() {
       if (window.innerWidth > 768) {
         document.getElementById('alerta-tela').style.display = 'flex';

@@ -7,8 +7,8 @@ h1 {
     color: #3B9AE1;
 }
 
-div#img {
-    background-image: url('img/Inserir\ um\ subtítulo.png');
+div#img11 {
+  background-image: url('../img/Inserir\ um\ subtítulo.png');
   background-size: cover;         /* Cobre toda a área */
   background-position: center;    /* Centraliza a imagem */
   background-repeat: no-repeat;   /* Evita repetição */
@@ -33,4 +33,85 @@ div#img {
       z-index: 9999;
       justify-content: center;
       align-items: center;
+    }
+
+
+     body {
+      font-family: Arial, sans-serif;
+      background-color: #111;
+      color: white;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 20px;
+      background-color: white;
+      position: relative;
+      z-index: 10;
+    }
+
+    .logo img {
+      height: 45px;
+    }
+
+    .hamburger {
+      width: 30px;
+      height: 22px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      cursor: pointer;
+      z-index: 11;
+    }
+
+    .bar {
+      height: 4px;
+      background-color: #3B9AE1;
+      border-radius: 2px;
+      transition: all 0.3s ease;
+    }
+
+    /* Animação do X */
+    .hamburger.active .bar:nth-child(1) {
+      transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+      opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+      transform: rotate(-45deg) translate(6px, -6px);
+    }
+
+    .menu {
+      position: fixed;
+      top: 1;
+      right: -100%;
+      width: 250px;
+      height: 100vh;
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 60px;
+      transition: right 0.4s ease;
+    }
+
+    .menu.active {
+      right: 0;
+    }
+
+    .menu a {
+      color: #3B9AE1;
+      text-decoration: none;
+      font-size: 1.5rem;
+      margin: 25px 0;
+      transition: 0.3s;
+    }
+
+    .menu a:hover {
+      color: white;
     }
