@@ -46,14 +46,15 @@ div#img11 {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 15px 20px;
+      padding: 0px 20px;
       background-color: white;
       position: relative;
       z-index: 10;
     }
 
     .logo img {
-      height: 45px;
+      
+      width: 47px;
     }
 
     .hamburger {
