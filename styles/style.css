@@ -151,7 +151,7 @@ div#img11 {
     }
 
     div#secorig img {
-      width: 100vw;
+      width: 100%;
     }
 
     div#secorig h1 {
@@ -175,7 +175,6 @@ div#img11 {
     div#traco {
       background-color: #A57A1F;
       padding: 7px;
-      width: 100vw;
     }
 div#sobrecat {
   height: 100vh;
@@ -229,7 +228,7 @@ div#trib p {
 
 div#transf {
   background: linear-gradient(to bottom, #182847 38%, white 220%);
-  height: 120vh;
+  height: 130vh;
   padding: 20px;
 }
 
