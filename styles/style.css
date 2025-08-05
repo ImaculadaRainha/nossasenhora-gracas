@@ -1,3 +1,31 @@
+:root {
+  --cor1: #1f5f74; /*Cor Titulo*/
+  --cor2: #374151; /*Cor Textos*/
+
+  /* Roupas de Nossa Senhora das Graças */
+  --tunica-branca: #ffffff;
+  --manto-azul-celeste: #87ceeb;
+  --manto-azul-claro: #add8e6;
+  --cinto-azul: #4682b4;
+
+  /* Véu */
+  --veu-branco: #f8f8ff;
+
+  /* Elementos dourados */
+  --dourado: #ffd700;
+
+  /* Raios de luz */
+  --raio-luz-claro: #fffacd;
+  --raio-luz-luminoso: #ffffe0;
+
+  /* Serpente (representação do mal) */
+  --serpente-preta: #2f4f4f;
+
+  /* Globo terrestre */
+  --globo-verde: #228b22;
+  --globo-azul-oceano: #1e90ff;
+}
+
 * {
     margin: 0;
     padding: 0;
