@@ -163,7 +163,7 @@ div#img11 {
 
     div#secorig p {
       padding: 20px;
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       color: var(--cor2);
     }
 
@@ -248,4 +248,62 @@ div#transf p {
 span.negrito2 {
   color: #E8A64C;
   font-weight: bold;
+}
+
+div#signmdl h1 {
+  padding: 30px  0px 45px 15px;
+  font-size: 1.7rem;
+  color: var(--cor1);
+}
+
+div#signmdl {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+div#signmdl p {
+  padding: 10px;
+  font-size: 1.1rem;
+  color: var(--cor2);
+}
+
+div#ptdtrs {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+div#ptdtrs h1 {
+  padding: 50px  0px 10px 15px;
+  font-size: 1.7rem;
+  color: var(--cor1);
+}
+
+div#ptdtrs p {
+  padding: 10px;
+  font-size: 1.1rem;
+  color: var(--cor2);
+}
+
+div#traco21 {
+      background-color: var(--cor1);
+      margin-top: 50px;
+      padding: 7px;
+    }
+
+div#propst {
+  height: 100vh;
+}
+
+div#propst h1{
+  padding: 50px  0px 10px 15px;
+  font-size: 1.7rem;
+  color: var(--cor1);
+}
+
+div#propst p {
+  padding: 10px;
+  font-size: 1.1rem;
+  color: #775305;
 }
