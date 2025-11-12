@@ -217,16 +217,33 @@ div#sobrecat h1{
 }
 
 div#trib {
+  background-image: url('../img/Cópia\ de\ Dia\ De\ Nossa\ Senhora\ Das\ Graças\ 27\ De\ Novembro\ Criativo\ Azul\ E\ Branco\ Story\ Do\ Instagram\ .png'); /* Substitua pelo nome da sua imagem */
+  background-size: cover; /* Faz a imagem cobrir toda a área */
+  background-position: center; /* Centraliza a imagem */
+  height: 100vh; /* Ocupa toda a altura da tela */
   display: flex;
+  padding-top: 60px;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  /**display: flex;
   justify-content: center;
   flex-direction: column;
   background-color: #182847;
   height: 100vh;
-  padding: 20px;
+  padding: 20px;**/
+}
+
+div.texto {
+  position: relative;
+  text-align: justify;
+  color: white;
+  padding: 10px;
+  z-index: 1; /* Garante que o texto fique acima do fundo */
 }
 
 div#trib h1 {
-  padding-bottom: 50px;
+  padding-bottom: 45px;
   color: #E8A64C;
   font-family: var(--font01);
   font-size: 1.7rem;
@@ -239,24 +256,41 @@ div#trib p {
 }
 
 div#transf {
-  background: linear-gradient(to bottom, #182847 38%, white 220%);
+  /**background: linear-gradient(to bottom, #182847 38%, white 220%);
   height: 130vh;
-  padding: 20px;
+  padding: 20px;**/
+  background-image: url('../img/imggg.png'); /* Substitua pelo nome da sua imagem */
+  background-size: cover; /* Faz a imagem cobrir toda a área */
+  background-position: center; /* Centraliza a imagem */
+  height: 100vh; /* Ocupa toda a altura da tela */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+div.texto002 {
+  position: relative;
+  text-align: justify;
+  color: white;
+  z-index: 1; /* Garante que o texto fique acima do fundo */
 }
 
 div#transf h1 {
-  padding: 10px;
   color: #E8A64C;
   font-family: var(--font01);
   font-size: 1.7rem;
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
 }
 
 div#transf p {
   color: white;
+  font-size: 0.9rem;
   font-family: var(--font02);
-  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 span.negrito2 {
