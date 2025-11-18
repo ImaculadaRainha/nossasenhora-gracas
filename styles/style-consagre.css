@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+  /* ===== CORES PRINCIPAIS ===== */
+  --cor-fundo: #F3E7D3;
+  --cor-branco: #FFFFFF;
+
+  /* ===== AZUIS (manto e sombras) ===== */
+  --azul-claro: #4A79B1;
+  --azul-escuro: #2F4A72;
+  --azul-pastel: #8FAFDB;
+  --azul-acinzentado: #6D8AA5;
+
+  /* ===== DOURADOS E AMARELOS ===== */
+  --dourado-suave: #D8B56A;
+  --dourado-intenso: #CFA649;
+  --creme-iluminado: #EEDFC3;
+
+  /* ===== TONS TERROSOS ===== */
+  --marrom-suave: #9C784B;
+  --marrom-escuro: #5E472E;
+
+  /* ===== ROSAS (anjos e pele) ===== */
+  --rose-suave: #E6C3A5;
+  --rosa-angelical: #F4D2C8;
+  --rosa-queimado: #D9A58A;
+
+  /* ===== VERDES (vegetação) ===== */
+  --verde-musgo: #3F4A2F;
+  --verde-oliva: #7A8B5B;
+
+  /* ===== LARANJAS ===== */
+  --laranja-luz: #E89A48;
+}
+
+
+
+div#cabeca h1 {
+    padding: 50px 30px 20px 30px;
+}
+
+div#cabeca div.img1 {
+    background-image: url('../img/nossa\ senhora.png');
+  background-size: cover;         /* Cobre toda a área */
+  background-position: center;    /* Centraliza a imagem */
+  background-repeat: no-repeat;   /* Evita repetição */
+  height: 74vh;                  /* Altura da tela inteira */
+  width: 100%;
+}
+
+h1 {
+    color: var(--dourado-intenso);
+}
+
+span.negrito1 {
+    color: var(--azul-escuro);
+}
