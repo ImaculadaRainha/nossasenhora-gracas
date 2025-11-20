@@ -175,6 +175,26 @@ div#img11 {
       color: var(--cor2);
     }
 
+    div.cs {
+      display: flex;
+      background-color: var(--cor2);
+      padding: 10px;
+      margin: 20px 20px 0px 20px;
+      border-radius: 50px;
+    }
+
+    div.cs:hover {
+      background-color: #0b2842;
+      transition: 0.5s;
+}
+
+    div.cs a {
+      text-decoration: none;
+      text-align: center;
+      font-weight: bold;
+      color: var(--veu-branco);
+}
+
     span.negrito {
       color: #182847;
       font-weight: bold;
@@ -369,6 +389,26 @@ div#propst p {
   height: 100vh;                  /* Altura da tela inteira *
   width: 100%;
 }*/
+
+div#pag02 {
+  display: flex;
+  background-color: var(--cor2);
+  padding: 10px;
+  margin: 10px 20px 20px 20px;
+  border-radius: 50px;
+}
+
+div#pag02:hover {
+  background-color: #0b2842;
+  transition: 0.5s;
+}
+
+div#pag02 a {
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  color: var(--veu-branco);
+}
 
 .footer {
     background: #012b62; /* cor de fundo */
