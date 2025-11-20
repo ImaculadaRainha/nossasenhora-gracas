@@ -351,3 +351,19 @@ div.dvdcons p {
   .footer a:hover {
     text-decoration: underline;
   }
+
+
+  .credito-site {
+  font-size: 13px;
+  color: #9ca3af; /* cinza claro */
+  margin-top: 10px;
+}
+
+.credito-site a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.credito-site a:hover {
+  opacity: 0.8;
+}
