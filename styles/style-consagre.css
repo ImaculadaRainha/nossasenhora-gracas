@@ -177,11 +177,17 @@ div#cons > p.sub {
     overflow: hidden;
 }
 
+div.video-wrapper p {
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+}
+
 /* Botão de PLAY */
 .play-btn,
 .pause-btn {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     width: 80px;
     height: 80px;
@@ -225,3 +231,123 @@ video {
     display: block;
     border-radius: 12px;
 }
+
+
+
+div#fcons {
+    margin-top: 30px;
+}
+div#fcons h1 {
+    padding: 15px;
+    font-size: 1.7rem;
+}
+
+div#fcons img {
+    background-size: cover;         /* Cobre toda a área */
+    background-position: center;    /* Centraliza a imagem */
+    background-repeat: no-repeat;   /* Evita repetição */
+    width: 100%;                    /* Altura da tela inteira */
+    margin-bottom: 20px;                         
+}
+
+div#fcons p {
+    color: var(--cor-preto);
+    padding: 5px 25px 10px 25px;
+    font-size: 16px; /*OBS: 1.1rem*/
+    text-align: initial;
+    line-height: 1.6;
+}
+
+div#escra {
+    margin-top: 30px;
+}
+div#escra h1 {
+    padding: 15px;
+    font-size: 1.7rem;
+}
+
+div#escra img {
+    background-size: cover;         /* Cobre toda a área */
+    background-position: center;    /* Centraliza a imagem */
+    background-repeat: no-repeat;   /* Evita repetição */
+    width: 100%;                    /* Altura da tela inteira */
+    margin-bottom: 20px;                         
+}
+
+div#escra p {
+    color: var(--cor-preto);
+    padding: 5px 25px 10px 25px;
+    font-size: 16px; /*OBS: 1.1rem*/
+    text-align: initial;
+    line-height: 1.6;
+}
+
+oqcans
+
+div#oqcans {
+    margin-top: 30px;
+}
+div#oqcans h1 {
+    padding: 15px;
+    font-size: 1.7rem;
+}
+
+div#oqcans img {
+    background-size: cover;         /* Cobre toda a área */
+    background-position: center;    /* Centraliza a imagem */
+    background-repeat: no-repeat;   /* Evita repetição */
+    width: 100%;         /* Altura da tela inteira */
+    /*padding: 20px;*/           
+    margin-bottom: 20px;                         
+}
+
+div#oqcans p {
+    color: var(--cor-preto);
+    padding: 5px 25px 10px 25px;
+    font-size: 16px; /*OBS: 1.1rem*/
+    text-align: initial;
+    line-height: 1.6;
+}
+
+div.dvdcons {
+    padding: 0px;
+}
+
+div.dvdcons h1 {
+    padding: 15px;
+    font-size: 1.7rem;
+}
+
+div.dvdcons h2 {
+    padding: 20px 20px 7px 20px;
+    font-size: 16px; /*OBS: 1.1rem*/
+    font-weight: bold;
+}
+
+div.dvdcons p {
+    color: var(--cor-preto);
+    padding: 5px 20px 10px 20px;
+    font-size: 16px; /*OBS: 1.1rem*/
+    text-align: initial;
+    line-height: 1.6;
+}
+
+
+
+.footer {
+    background: #012b62; /* cor de fundo */
+    color: #fff;      /* cor do texto */
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 14px;
+  }
+
+  .footer a {
+    color: #3B9AE1; /* link azul */
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .footer a:hover {
+    text-decoration: underline;
+  }
