@@ -185,13 +185,13 @@ div#img11 {
       padding: 7px;
     }
 div#sobrecat {
-  height: 100vh;
+  padding: 0px 0px 50px 0px;
   
 }
 
 .container {
   display: flex;
-  margin-top: 60px;
+  margin-top: 25px;
   align-items: center; /* alinha verticalmente */
   gap: 10px; /* espaçamento entre imagem e texto */
 }
@@ -343,9 +343,9 @@ div#traco21 {
       padding: 7px;
     }
 
-div#propst {
+/*div#propst {
   height: 100vh;
-}
+}*/
 
 div#propst h1{
   padding: 50px  0px 10px 15px;
@@ -361,14 +361,14 @@ div#propst p {
   color: var(--cor2);
 }
 
-div#img12 {
+/*div#img12 {
   background-image: url('../img/Dia\ De\ Nossa\ Senhora\ Das\ Graças\ 27\ De\ Novembro\ Criativo\ Azul\ E\ Branco\ Story\ Do\ Instagram\ .png');
-  background-size: cover;         /* Cobre toda a área */
-  background-position: center;    /* Centraliza a imagem */
-  background-repeat: no-repeat;   /* Evita repetição */
-  height: 100vh;                  /* Altura da tela inteira */
+  background-size: cover;         /* Cobre toda a área *
+  background-position: center;    /* Centraliza a imagem *
+  background-repeat: no-repeat;   /* Evita repetição *
+  height: 100vh;                  /* Altura da tela inteira *
   width: 100%;
-}
+}*/
 
 .footer {
     background: #012b62; /* cor de fundo */
