@@ -367,3 +367,21 @@ div.dvdcons p {
 .credito-site a:hover {
   opacity: 0.8;
 }
+
+#alerta-tela {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #000000cc;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  z-index: 9999;
+}

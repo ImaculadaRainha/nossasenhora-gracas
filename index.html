@@ -27,8 +27,8 @@
   </nav> -->
 
     <div id="alerta-tela">
-    ⚠️ Este site está disponível apenas para visualização em dispositivos móveis.
-  </div>
+      ⚠️ Este site está disponível apenas para visualização em dispositivos móveis.
+    </div>
     <main>
         <div id="img11">
 
@@ -130,27 +130,35 @@ Em suas mãos, Maria segurava um globo dourado, representando o mundo inteiro e 
 
 
 
-    <script>
-      const hamburger = document.getElementById("hamburger");
+    
+      <!--const hamburger = document.getElementById("hamburger");
     const menu = document.getElementById("menu");
 
     hamburger.addEventListener("click", () => {
       hamburger.classList.toggle("active");
       menu.classList.toggle("active");
-    });
+    });-->
 
-    function verificarTela() {
-      if (window.innerWidth > 768) {
-        document.getElementById('alerta-tela').style.display = 'flex';
-        document.getElementById('conteudo-site').style.display = 'none';
+    <script>
+      function verificarTela() {
+        const alerta = document.getElementById('alerta-tela');
+        const conteudo = document.getElementById('conteudo-site');
+
+        if (window.innerWidth > 768) {
+          alerta.style.display = 'flex';
+          conteudo.style.display = 'none';
+        } else {
+          alerta.style.display = 'none';
+          conteudo.style.display = 'block';
+        }
       }
-    }
 
-    // Verifica ao carregar a página
-    verificarTela();
+      // Verifica ao carregar a página
+      verificarTela();
 
-    // Também verifica ao redimensionar a janela
-    window.addEventListener('resize', verificarTela);
-  </script>
+      // Verifica ao redimensionar
+      window.addEventListener('resize', verificarTela);
+
+    </script>
 </body>
 </html>

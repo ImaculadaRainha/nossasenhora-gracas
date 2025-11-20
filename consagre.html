@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="styles/style-consagre.css">
 </head>
 <body>
+    <div id="alerta-tela">
+      ⚠️ Este site está disponível apenas para visualização em dispositivos móveis.
+    </div>
 
     <!--AREA1-->
     <div id="cabeca">
@@ -202,6 +205,25 @@
                 playBtn.style.display = "none";
             }
         });
+
+        function verificarTela() {
+        const alerta = document.getElementById('alerta-tela');
+        const conteudo = document.getElementById('conteudo-site');
+
+        if (window.innerWidth > 768) {
+          alerta.style.display = 'flex';
+          conteudo.style.display = 'none';
+        } else {
+          alerta.style.display = 'none';
+          conteudo.style.display = 'block';
+        }
+      }
+
+      // Verifica ao carregar a página
+      verificarTela();
+
+      // Verifica ao redimensionar
+      window.addEventListener('resize', verificarTela);
     </script>
 
 
