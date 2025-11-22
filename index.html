@@ -116,6 +116,74 @@ Em suas mãos, Maria segurava um globo dourado, representando o mundo inteiro e 
         <div id="pag02">
           <a href="consagre.html">Clique aqui e Conheça a Consagração a Nossa Senhora pelo Método de São Luís</a>
         </div>
+
+        <div class="trac"></div>
+
+        <section class="artigos-relacionados">
+    <h2>Artigos relacionados</h2>
+
+    <div class="scroll-container" id="scrollBox">
+
+        <!-- CARD 1 -->
+        <div class="card-artigo">
+            <img src="imgpag2/sao-luis-de-montfort-e-o-primado-de-deus-redesociais__1_-1024x576.jpg" class="card-img">
+
+            <div class="card-info">
+                <div class="meta">
+                    <span class="categoria">Destaque, Formação</span>
+                    <span class="separador">|</span>
+                    <span class="icone">🕒</span>
+                    <span class="data">20/11/2025</span>
+                </div>
+
+                <h3 class="titulo">Conheça a Consagração a Nossa Senhora pelo Método de São Luís</h3>
+                <a href="consagre.html" class="ver-mais">Ver mais</a>
+            </div>
+        </div>
+
+        <!-- CARD 2 --
+        <div class="card-artigo">
+            <img src="img/artigo2.jpg" class="card-img">
+
+            <div class="card-info">
+                <div class="meta">
+                    <span class="categoria">Destaque, Formação</span>
+                    <span class="separador">|</span>
+                    <span class="icone">🕒</span>
+                    <span class="data">21/11/2025 16</span>
+                </div>
+
+                <h3 class="titulo">Festa de Cristo Rei</h3>
+                <a href="#" class="ver-mais">Ver mais</a>
+            </div>
+        </div>
+
+        <!-- CARD 3 
+        <div class="card-artigo">
+            <img src="img/artigo3.jpg" class="card-img">
+
+            <div class="card-info">
+                <div class="meta">
+                    <span class="categoria">Formação</span>
+                    <span class="separador">|</span>
+                    <span class="icone">🕒</span>
+                    <span class="data">21/11/2025 16</span>
+                </div>
+
+                <h3 class="titulo">Calendários litúrgico e civil: por que são diferentes?</h3>
+                <a href="#" class="ver-mais">Ver mais</a>
+            </div>
+        </div>-->
+
+    </div>
+
+    <!-- Botões -->
+    <button class="btn-scroll left" onclick="scrollLeft()">❮</button>
+    <button class="btn-scroll right" onclick="scrollRight()">❯</button>
+</section>
+
+
+
     </main>
 
     
@@ -159,6 +227,17 @@ Em suas mãos, Maria segurava um globo dourado, representando o mundo inteiro e 
 
       // Verifica ao redimensionar
       window.addEventListener('resize', verificarTela);
+
+      const scrollBox = document.getElementById("scrollBox");
+
+function scrollRight() {
+    scrollBox.scrollBy({ left: 350, behavior: "smooth" });
+}
+
+function scrollLeft() {
+    scrollBox.scrollBy({ left: -350, behavior: "smooth" });
+}
+
 
     </script>
 </body>
