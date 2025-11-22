@@ -420,9 +420,14 @@ div#pag02 a {
 }
 
 div.trac {
-  background-color: rgb(155, 155, 155);
+  display: flex;
+  justify-content: center;
+}
+
+div.tr {
+  background-color: rgb(187, 187, 187);
   padding: 1px;
-  width: 100%;
+  width: 90%;
   margin: 10px 0px 10px 0px;
 }
 
